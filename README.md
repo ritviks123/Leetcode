@@ -31,7 +31,7 @@ The sync is powered by [`joshcai/leetcode-sync`](https://github.com/joshcai/leet
 
 | # | Problem | Difficulty | Topics | Solution |
 | :--- | :--- | :--- | :--- | :--- |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Array | [View](my-folder/0485-max-consecutive-ones) |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Array | [View](completed_solutions/0485-max-consecutive-ones) |
 
 ---
 
