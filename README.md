@@ -62,3 +62,19 @@ Each problem gets its own folder named `<zero-padded-id>-<problem-slug>`, so eve
 ---
 
 <sub>Solutions are my own work. Problem statements and test cases belong to LeetCode.</sub>
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/ritviks123/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/ritviks123/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0020-valid-parentheses](https://github.com/ritviks123/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
+<!---LeetCode Topics End-->
