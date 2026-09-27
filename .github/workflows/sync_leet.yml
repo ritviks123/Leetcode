@@ -1,14 +1,30 @@
-name: Sync Leetcode
+# ============================================================
+# RETIRED 2026-09-26 — this workflow no longer runs.
+#
+# It synced accepted LeetCode submissions into completed_solutions/
+# via joshcai/leetcode-sync.
+#
+# Why retired: the action authenticates with the LEETCODE_SESSION
+# browser cookie, which expires about every two weeks. Every expiry
+# silently broke the sync until the secret was refreshed by hand.
+#
+# Replaced by: LeetHub-3.0 browser extension, which commits on accept
+# using the browser's live LeetCode session. No stored credentials.
+#
+# Two hard stops are in place below: the schedule trigger is removed,
+# and the job is guarded by `if: false`. The secrets it references
+# have also been deleted, so a manual run would fail regardless.
+# ============================================================
+
+name: Sync Leetcode (retired)
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 8 * * *"
 
 jobs:
   build:
+    if: false
     runs-on: ubuntu-latest
-
     steps:
       - name: Sync
         uses: joshcai/leetcode-sync@v1.7
