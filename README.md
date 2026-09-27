@@ -1,80 +1,33 @@
 # LeetCode Solutions
 
-My LeetCode journey, synced automatically from LeetCode to this repo.
-
-![Auto-synced](https://img.shields.io/badge/sync-automated-6f42c1)
-![Workflow](https://img.shields.io/badge/GitHub%20Actions-enabled-2088FF?logo=githubactions&logoColor=white)
-![LeetCode](https://img.shields.io/badge/LeetCode-profile-FFA116?logo=leetcode&logoColor=white)
-
----
-
-## About
-
-Every accepted submission I write on LeetCode gets pulled into this repository by a GitHub Action. No copy-pasting, no manual commits. The goal is a durable, searchable archive of how my problem-solving has evolved over time.
-
-The sync is powered by [`joshcai/leetcode-sync`](https://github.com/joshcai/leetcode-sync), which reads my accepted submissions and writes them here as individual files.
-
----
+Python solutions to LeetCode problems, organized by problem number.
+Each folder contains the solution file and the problem description.
 
 ## Progress
 
-| Difficulty | Solved |
-| :--- | :--- |
-| Easy | 1 |
-| Medium | 0 |
-| Hard | 0 |
-| **Total** | **1** |
-
----
+**6 solved** — 6 Easy · 0 Medium · 0 Hard
 
 ## Solutions
 
-| # | Problem | Difficulty | Topics | Solution |
-| :--- | :--- | :--- | :--- | :--- |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Array | [View](completed_solutions/0485-max-consecutive-ones) |
+| # | Problem | Difficulty | Pattern | Time | Space |
+| --- | --- | --- | --- | --- | --- |
+| 20 | [Valid Parentheses](./0020-valid-parentheses) | Easy | Stack | O(n) | O(n) |
+| 27 | [Remove Element](./0027-remove-element) | Easy | Fast / slow pointers | O(n) | O(1) |
+| 485 | [Max Consecutive Ones](./0485-max-consecutive-ones) | Easy | Sliding window | O(n) | O(1) |
+| 682 | [Baseball Game](./0682-baseball-game) | Easy | Stack | O(n) | O(n) |
+| 1299 | [Replace Elements with Greatest Element on Right Side](./1231-replace-elements-with-greatest-element-on-right-side) | Easy | Suffix running max | O(n) | O(1) |
+| 1929 | [Concatenation of Array](./2058-concatenation-of-array) | Easy | Array construction | O(n) | O(n) |
 
----
+> Folder names for 1299 and 1929 use LeetCode's internal question ID (1231 and 2058).
 
-## Repository structure
+## By pattern
 
-```
-.
-├── .github/
-│   └── workflows/
-│       └── sync_leet.yml      # the sync workflow
-├── my-folder/                 # all synced solutions live here
-│   └── 0485-max-consecutive-ones/
-│       ├── README.md          # problem description
-│       └── solution.*         # my accepted code
-└── README.md                  # you are here
-```
+- **Stack** — 20, 682
+- **Two pointers** — 27
+- **Sliding window** — 485
+- **Prefix / suffix scan** — 1299
+- **Array construction** — 1929
 
-Each problem gets its own folder named `<zero-padded-id>-<problem-slug>`, so everything sorts numerically and is easy to find.
+## Language
 
----
-
-## Why I keep this
-
-- **Spaced repetition.** Re-reading old solutions is faster than re-solving from scratch.
-- **Pattern recognition.** Seeing my solutions grouped by topic makes the recurring techniques obvious.
-- **Interview prep.** A single place to review before a screen, instead of scrolling LeetCode's submission history.
-
----
-
-<sub>Solutions are my own work. Problem statements and test cases belong to LeetCode.</sub>
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0020-valid-parentheses](https://github.com/ritviks123/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
-## Stack
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0020-valid-parentheses](https://github.com/ritviks123/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
-## Bracket Sequences
-| Problem Name | Difficulty |
-| ------- | ------- |
-| [0020-valid-parentheses](https://github.com/ritviks123/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
-<!---LeetCode Topics End-->
+Python 3
