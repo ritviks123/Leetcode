@@ -31,3 +31,15 @@ Each folder contains the solution file and the problem description.
 ## Language
 
 Python 3
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/ritviks123/Leetcode/tree/main/0155-min-stack/) | Medium |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0155-min-stack](https://github.com/ritviks123/Leetcode/tree/main/0155-min-stack/) | Medium |
+<!---LeetCode Topics End-->
