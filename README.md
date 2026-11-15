@@ -42,4 +42,16 @@ Python 3
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/ritviks123/Leetcode/tree/main/0155-min-stack/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/ritviks123/Leetcode/tree/main/0231-power-of-two/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/ritviks123/Leetcode/tree/main/0231-power-of-two/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0231-power-of-two](https://github.com/ritviks123/Leetcode/tree/main/0231-power-of-two/) | Easy |
 <!---LeetCode Topics End-->
